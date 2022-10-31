@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me : PRAVEENKUMAR T</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+
+<header>
+
+    <div class="user">
+        <img src="praveen.jpg" alt="">
+        <h3 class="name">PRAVEENKUMR T</h3>
+        <p class="post">KIT-CBE</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">Skills</a></li>
+            <li><a href="#education">education</a></li>
+           
+           
+        </ul>
+    </nav>
+
+</header>
+
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>hi there...</h3>
+        <h3 class="name">my name is <span>PRAVEENKUMAR T</span></h3>
+        <br>
+        <a href="#"><button class="btn">  <a href="https://docs.google.com/document/d/16iC8D0R4y1ubiO5LULmmDBscjIiBa3Xd/edit?usp=drivesdk&ouid=105407491255611778857&rtpof=true&sd=true" target="_blank"><b>Resume</b></a></button></a>
+        <br>
+        <a href="#"><button class="btn">  <a href="mailto:kit.23.19bec080@gmail.com" target="_blank">Hire Me</a></button></a>
+
+
+    </section>
+
+
+    <section class="about" id="about">
+        <br> <br>
+        <h1 class="heading">Skills</h1>
+
+        <br> <br>
+        <br> <br>
+        
+
+        <div class="skills">
+            <div class="progress">
+                <h3>html <span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>css <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>javascript <span>65%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>python <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="education" id="education">
+
+        <h1 class="heading">my education</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2016 - 2017</div>
+                <h3>SSLC</h3>
+                <p>Specialization : General <br>
+                School : Anuvrat Vidhyalaya School <br>
+                Percantage : 80%
+            </p>
+            </div>
+
+            <div class="box">
+                <div class="year">2017 - 2018</div>
+                <h3>11<sup>th</sup> Standard</h3>
+                <p>Specialization : PCM <br>
+                School : Anuvrat Vidhyalaya School<br>
+                Percantage : 60</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2018 - 2019</div>
+                <h3>12<sup>th</sup> Standard</h3>
+                <p>Specialization : PCM <br>
+                School : Anuvrat Vidhyalaya School<br>
+                Percantage : 55</p>
+                </div>
+
+            <div class="box">
+                <div class="year">2019 - 2023*</div>
+                <h3>bachelor of engineering</h3>
+                <p>Specialization : Electronics and Communication Engineering <br>
+                College : Kalaignarkarunanidhi institute of technology<br>
+                CGPA : 8.123*</p>            
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section  -->
+   
+</div>
+
+<!-- content section ends -->
+
+<!-- theme toggler  -->
+
+<div class="theme-toggler">
+    <span style="background: linear-gradient(deeppink, purple);"></span>
+    <span style="background: linear-gradient(lightgreen, crimson);"></span>
+    <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+    <span style="background:linear-gradient(coral, blueviolet)"></span>
+    <span style="background:linear-gradient(#999, #111)"></span>
+</div>
+
+
+<!-- type.js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : [ 'web designer', 'front end developer', 'graphic designer', 'photographer' ],
+        typeSpeed: 120,
+        loop:true
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+</script>
+
+</body>
+</html>
